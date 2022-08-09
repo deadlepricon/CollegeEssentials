@@ -1,0 +1,38 @@
+
+.verticLayout{
+    border: auto;
+    /* width: auto; */
+    border-radius: 40px;
+    background-color: rgb(213, 213, 213);
+    /* text-shadow: 1px 1px white; */
+    
+}
+
+.horLayout{
+    margin: auto;
+    /* border-style: solid; */
+    border: 5px solid black;
+    border-radius: 40px;
+    background-color: rgb(213, 213, 213);
+    
+    /* padding: 30px; */
+}
+
+.addToCartButton{
+    color:white;
+    background-color: black;
+}
+
+.addToCartButton:hover{
+    color:black;
+    background-color: white;
+}
+
+.itemPostImage{
+    border-radius: 40px;
+
+}
+
+.DescripBox:focus{
+    outline: none;
+}

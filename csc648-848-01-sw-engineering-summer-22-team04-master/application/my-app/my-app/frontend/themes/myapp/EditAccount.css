@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*
+    General CSS
+*/
+* {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0.25px 0.25px black;
+}
+.hello-grid-2 {
+    margin: 10px;
+    
+    width: 90%;
+    display: grid !important;
+    grid-template-rows: auto;
+    background: white;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 125px 125px 2fr 2fr 2fr;
+    grid-template-areas: 
+    "Profile Profile Profile"
+    "Profile Profile Profile"
+    "Contact EditProfile Ratings"
+    "Contact EditProfile Ratings"
+    "Contact EditProfile Ratings";
+    column-gap: 5px;
+    row-gap: 30px;
+
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px black;
+}
+
+.edit-label-one {
+    grid-area: Profile;
+    background-color: rgb(49, 104, 121, 0.6);
+    border-radius: 10px;
+    justify-self: stretch;
+    box-shadow: 1px 1px lightgray;
+}
+
+.editAcc {
+    
+    margin-top: 190px;
+    background-color: black;
+    color: white;
+}
+
+.editAcc:hover {
+    
+    margin-top: 190px;
+    background-color: white;
+    color: black;
+}
+
+.edit-label-two {
+    
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 1px 1px lightgray;
+    grid-area: EditProfile;
+    margin-top: 80px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px lightgray;
+    padding: -20px;
+
+    
+}
+
+
+.pfp {
+    display: block;
+    margin: 25px;
+    margin-top: 50px;
+    height: 180px;
+    width: 180px;
+}
+
+.name {
+    border-radius: 5px;
+    margin-top: 150px;
+    color: black;
+}
+
+
+#vaadin-text-area-0{
+    background-color: white;
+    border: none;
+}
+
+
+.edit-title {
+    
+}

@@ -1,0 +1,266 @@
+
+
+.buttonLayout{
+    display: flex;
+    margin: auto;
+    margin-top:10%;
+    width: 50%;
+}
+
+.homePageImageLayout{
+    display: flex;
+    margin: auto;
+    margin-top:10%;
+    width: 50%;
+ 
+}
+
+/* body {
+    background-image: url("https://cdn.discordapp.com/attachments/982032674078216210/997652262996430868/unknown.png");
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+} */
+
+
+.background-photo{
+    /* background-image: url("https://cdn.discordapp.com/attachments/982032674078216210/997942932478890094/wooden-table-with-blurred-background.jpg"); */
+    background-image: url("https://cdn.discordapp.com/attachments/998116033850249267/998362671403516005/blurred-background.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    /* position: absolute; */
+    position:relative;
+    overflow:auto;
+    height: 100%;
+}
+
+.home-search-bar{
+    border-radius: 5px;
+    background-position: left top;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 25px;
+    margin-top: 2px;
+    margin-right: 2px;
+    text-align: center;
+    background-color: rgb(104, 82, 82,1);
+    border: none;
+}
+
+.home-dropdown-bar{
+    border-radius: 5px;
+    background-position: left top;
+    background-color: rgb(104, 82, 82, 1);
+    width: 150px;
+    height: 25px;
+    margin-top: 2px;
+    margin-right: 2px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: none;
+}
+
+.home-search-button{
+    border-radius: 5px;
+    background-position: left top;
+    width: 150px;
+    height: 25px;
+    padding: 18px;
+    margin-bottom: 65px;
+    text-align: center;
+    
+}
+/* .search-bar {
+    background-color: rgb(255,255,255,1);
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+} */
+.title-p1 {
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+    margin-top: 100px;
+    text-shadow: 1px 1px white;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title-p2 {
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+    margin-top: -35px;
+    text-shadow: 1px 1px white;
+    margin-right: auto;
+    margin-left: auto;
+}
+.marketPlaceButton{
+    background-color: black;
+    color: whitesmoke;
+    margin-top: -20%;
+    margin-left: auto;
+    min-width: 250px;
+    /* margin-right: 0%; */
+}
+
+.marketPlaceButton:hover{
+    background-color: whitesmoke;
+    color: black;
+
+}
+.homePageMarketImage{
+    position: relative;
+    background-color: black;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/546/065/original/dollar-sign-green-vector.jpg");
+    background-size: cover;
+    border: 7px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    min-width: 250px;
+    min-height: 250px;
+    color: whitesmoke;
+    margin-top: -30%;
+    margin-left: auto;
+    /* margin-right: auto; */
+}
+
+
+.forumButton{
+    position: relative;
+    background-color: black;
+    color: whitesmoke;
+    min-width: 250px;
+    margin-top: -20%;
+    /* margin-right: auto;
+    margin-left: 18.5%;
+    left: 2.5%; */
+}
+
+.forumButton:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.homePageForumImage{
+    position: relative;
+    background-color: black;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/337/734/original/vector-chat-icon.jpg");
+    background-size: cover;
+    border: 7px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    min-width: 250px;
+    min-height: 250px;
+    color: whitesmoke;
+    margin-top: -30%;
+    /* margin-right: 20%;
+    margin-left: 20%; */
+}
+
+.serviceButton{
+    background-color: black;
+    color: whitesmoke;
+    min-width: 250px;
+    margin-top: -20%;
+    margin-right: auto;
+    /* margin-right: auto;
+    margin-left: 10%;
+    left: 6%; */
+}
+
+.serviceButton:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.homePageServiceImage{
+    position: static;
+    background-color: black;
+    background-image: url("https://ca-times.brightspotcdn.com/dims4/default/332148a/2147483647/strip/true/crop/6152x4480+0+0/resize/768x560!/quality/90/?url=https:%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2b%2F1c%2F93168e774efcac36af18d9c02711%2Fla-ca-simu-liu-stock-photo-cropped.jpg");
+    background-size: cover;
+    border: 7px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    color: whitesmoke;
+    min-width: 250px;
+    min-height: 250px;
+    margin-top: -30%;
+    margin-right: auto;
+    /* margin-right: auto;
+    margin-left: 0%; */
+}
+
+.errorMessage{
+    margin: auto;
+}
+
+.vertItemLayout{
+    border: 3px solid green;
+    background-color: black;
+}
+
+.buttonItem{
+    background-color: black;
+    color: white;
+}
+
+.buttonItem:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.description-1{
+    margin-top: -30px;
+    font-size: 16px;
+    color: black;
+    text-shadow: 0.5px 0.5px white;
+    margin-right: auto;
+    margin-left: auto;
+}
+.description-2{
+    margin-top: -20px;
+    font-size: 16px;
+    color: black;
+    text-shadow: 0.5px 0.5px white;
+    margin-right: auto;
+    margin-left: auto;
+}
+.description-3{
+    margin-top: -17px;
+    font-size: 16px;
+    color: black;
+    text-shadow: 0.5px 0.5px white;
+    margin-right: auto;
+    margin-left: auto;
+}
+.searchBar{
+    background-color: white;
+    
+    /* margin-right: 2px; */
+}
+.selector{
+    background-color: white;
+}
+.searchButton{
+    background-color: black;
+    color:white;
+    
+}
+
+.searchButton-2 {
+    margin-left: 2px;
+    background-color: black;
+    color: white;
+}
+
+.searchButton:hover{
+    background-color: white;
+    color: black;
+}
+
+.vlHome{
+    background-color: rgb(225, 224, 224);
+}

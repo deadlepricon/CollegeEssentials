@@ -1,0 +1,42 @@
+.h3{
+    font-size: large;
+    text-decoration: underline;
+    background-color: white;
+}
+
+.shoppingCartLayout{
+    border-style: solid;
+    width: auto;
+    padding: 30px 20px;
+}
+
+
+
+.horizontalLayout{
+    background-color: white;
+
+}
+
+.shoppingCartLayout{
+    background-color: white;
+}
+
+.verticalLayout{
+    border-style: solid;
+    padding: 20px 30px;
+    background-color: white;
+
+}
+
+.button{
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.button:hover{
+    background-color: whitesmoke;
+    color: black;
+}

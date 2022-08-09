@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*
+    General CSS
+*/
+* {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0.25px 0.25px black;
+}
+.hello-grid {
+    margin: 10px;
+    max-height: 90%;
+    
+    width: 90%;
+    display: grid !important;
+    grid-template-rows: auto;
+    background: white;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 125px 125px 2fr 2fr 2fr;
+    grid-template-areas: 
+    "Profile Profile Profile Profile Profile Profile"
+    "Profile Profile Profile Profile Profile Profile"
+    "Contact Contact Ratings Ratings Ratings Ratings"
+    "Contact Contact Ratings Ratings Ratings Ratings"
+    "Contact Contact Ratings Ratings Ratings Ratings";
+    column-gap: 5px;
+    row-gap: 5px;
+
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px black;
+}
+
+.label-one {
+    grid-area: Profile;
+    background-color: rgb(49, 104, 121, 0.6);
+    border-radius: 10px;
+    justify-self: stretch;
+    box-shadow: 1px 1px lightgray;
+    display: grid;
+    justify-self: stretch;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.20fr 0.3fr 0.25fr 0.25fr;
+    grid-template-areas:
+    "pfp names names buttons";
+    min-width: 110vh;
+}
+.pfp {
+    display: block;
+    margin: 25px;
+    margin-top: 50px;
+    height: 190px;
+    width: 180px;
+    grid-area: pfp;
+}
+.names {
+    grid-area: names;
+    margin-left: -40px;
+    margin-top: -50px;
+}
+.name {
+    border-radius: 5px;
+    color: black;
+}
+.username-profile {
+    margin-top: -45px;
+    color: black;
+}
+
+.purchases {
+    margin-top: 190px;
+    background-color: black;
+    color: white;
+    margin-left: 500px;
+}
+
+.purchases:hover{
+    background-color: white;
+    color: black;
+    
+}
+.selling-history {
+    margin-top: 190px;
+    background-color: black;
+    color: white;
+}
+.editAcc {
+    background-color: black;
+    color: white;
+    
+    
+}
+
+.editAcc:hover {
+    background-color: white;
+    color: black;
+}
+.profile-buttons {
+    grid-area: buttons;
+
+}
+
+.label-two {
+    background-color: rgb(227, 132, 132);
+    border-radius: 10px;
+    box-shadow: 1px 1px lightgray;
+    grid-area: Contact;
+    display: grid;
+    min-height: 700px;
+    justify-self: stretch;
+    grid-template-rows: repeat(1fr);
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "about-title"
+    "about-me"
+    "contact-title"
+    "contact-me";
+}
+
+.about-me {
+    margin: 5px;
+    height: auto;
+    grid-area: about-title;
+
+}
+
+.aboutText {
+    grid-area: about-me;
+    background-color: white;
+    margin-top: -80px;
+    height: 200px;
+}
+.contact-me {
+    grid-area: contact-title;
+}
+
+.contact-text {
+    grid-area: contact-me;
+    background-color: white;
+    margin-top: -80px;
+    height: 200px;
+}
+
+
+.label-three {
+    background-color: rgba(207, 66, 24, 0.3);
+    border-radius: 10px;
+    grid-area: Ratings;
+    box-shadow: 1px 1px lightgray;
+    display: grid;
+    min-height: 700px;
+    justify-self: stretch;
+    grid-template-rows: 45px auto 60px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "title"
+    "messages"
+    "commentbox";
+
+}
+
+
+.ratings {
+    margin: 5px;
+    grid-area: title;
+}
+
+.single-rating {
+    background-color: white;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-rows: 0.3fr 2fr;
+    grid-template-columns: 1fr 1fr;
+
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    grid-template-areas: 
+    "author created"
+    "comment comment";
+    
+}
+
+.all-ratings {
+    grid-area: messages;
+    max-height: 95%;
+    overflow-y: auto;
+    position: relative;
+}
+.all-ratings_new{
+    grid-area: messages;
+    max-height: 95%;
+    overflow-y: auto;
+    position: relative;
+}
+
+.rating-author {
+    color: #2196F3;
+    grid: author;
+}
+
+.date-posted {
+    grid: created;
+    justify-self: end;
+    margin-top: 10px;
+}
+
+.comment-text {
+    grid-area: comment;
+
+}
+
+.new-rating-field {
+    grid-area: commentbox;
+}
+.new-rating-text {
+    width: 75%;
+    color: white;
+}
+
+.rating-selector {
+    width: 7%;
+    background-color: whitesmoke;
+
+}
+.submit-rating {
+    width: 15%;
+    background-color: black;
+    color: white;
+}
+#vaadin-text-area-0{
+    background-color: white;
+    border: none;
+}

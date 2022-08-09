@@ -1,0 +1,167 @@
+/*Inherits the same properties from forum post, but this is the css for service posts*/
+/*Changes can be made to this without affecting CSS for forum posts*/
+.forum-grid {
+    display: grid !important;
+    background-color: white;
+    grid-template-rows: 5fr;
+    grid-template-areas: 
+    "Image Title Title Title Title Title Title Title"
+    "Image Post Post Post Post Post Post Post"
+    "Name Post Post Post Post Post Post Post"
+    "Contact Comments Comments Comments Comments Comments Comments Comments"
+    "Contact Comments Comments Comments Comments Comments Comments Comments";
+    justify-self: stretch;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.fp-image {
+    grid-area: Image;
+    background-color: white;
+    width: 200px;
+    margin-top:auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+    justify-self: stretch;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.fp-title {
+    grid-area: Title;
+    padding-left: 45%;
+    background-color: white;
+    border-radius: 10px;
+    justify-self: stretch;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.fp-user {
+    grid-area: Name;
+    max-width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    justify-self: stretch;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.fp-description{
+    grid-area: Post;
+    background-color: white;
+    min-height: 200%;
+    min-width: 99%;
+    border-radius: 10px;
+    justify-self: stretch;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.fp-contact{
+    border-radius: 10px;
+    grid-area: Contact;
+    background-color: white;
+    display: grid;
+    height: 100%;
+    max-height:100%;
+    max-width: 210px;
+    margin-bottom: auto;
+    overflow: hidden;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    grid-template-areas:
+    "fp-about-title"
+    "fp-about-me"
+    "fp-contact-title"
+    "fp-contact-me";
+}
+
+.fp-about-me {
+    margin: 5px;
+    height: auto;
+    grid-area: fp-about-title;
+}
+
+.fp-aboutText {
+    grid-area: fp-about-me;
+}
+.fp-contact-me {
+    grid-area: fp-contact-title;
+}
+
+.fp-contact-text {
+    grid-area: fp-contact-me;
+}
+
+.fp-comments{
+    background-color: white;
+    border-radius: 10px;
+    grid-area: Comments;
+
+    display: grid;
+    height: 100%;
+    max-height:100%;
+    justify-self: stretch;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    overflow: scroll;
+    grid-template-areas:
+    "fp-comment-title"
+    "fp-messages"
+    "fp-commentbox";
+}
+
+.fp-comment-title {
+    margin: 5px;
+    grid-area: fp-comment-title;
+}
+
+.fp-single-comment {
+    background-color: white;
+    border-radius: 10px;
+
+    display: grid;
+
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    grid-template-areas: 
+    "fp-author fp-created"
+    "fp-comment-text fp-comment-text";
+    
+}
+
+.fp-all-comments {
+    grid-area: fp-messages;
+}
+
+.fp-comment-author {
+    color: #2196F3;
+    grid: fp-author;
+    display: flex;
+    justify-content: left;
+}
+
+.fp-date-posted {
+    grid: fp-created;
+    justify-self: end;
+    margin-top: 10px;
+}
+
+.fp-comment-text {
+    grid-area: fp-comment-text;
+    overflow: hidden;
+}
+
+.fp-new-rating-field {
+    grid-area: fp-commentbox;
+}

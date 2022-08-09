@@ -1,0 +1,72 @@
+.make-forum-grid {
+    display: grid !important;
+    background-color: white;
+    grid-template-areas: 
+    "make-forum-header"
+    "make-forum-title"
+    "make-forum-description"
+    "make-forum-submit-button";
+    justify-self: stretch;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.header{
+    grid-area: make-forum-header;
+    border-radius: 5px;
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    opacity: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.make-title{
+    grid-area: make-forum-title;
+    border-radius: 5px;
+    background-position: left top;
+    padding-bottom: 10px;
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    opacity: 90%;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.make-description{
+    grid-area: make-forum-description;
+    border-radius: 5px;
+    background-position: left top;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    opacity: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.make-submit-button{
+    grid-area: make-forum-submit-button;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 45px;
+    border-style: solid;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}

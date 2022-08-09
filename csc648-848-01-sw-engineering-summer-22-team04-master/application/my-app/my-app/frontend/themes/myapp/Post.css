@@ -1,0 +1,82 @@
+.vertLayout{
+    border: 5px solid black;
+    width: auto;
+    background-color: whitesmoke;
+    max-width: 60%;
+    justify-content: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.h1Layout{
+    margin: auto;
+}
+
+.FooterLayout{
+    border-radius: 40px;
+    background-color: rgb(128,128,128, 0.5);
+    margin-top: 50%;
+    height: 230px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "about-us-footer contact-us-footer advertisements-footer privacy-footer";
+
+}
+
+.Header{
+    color: white;
+    background-color: black;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.about-us-footer {
+    margin-left: 40px;
+    grid-area: about-us-footer;
+}
+.contact-us-footer {
+    grid-area: contact-us-footer;
+}
+.advertisements-footer {
+    grid-area: advertisements-footer;
+}
+.privacy-footer {
+    margin-right: -600px;
+    grid-area: privacy-footer;
+}
+.contact {
+    font-size: 16px;
+}
+
+.adver {
+    font-size: 16px;
+}
+
+.about-us-div {
+    font-size: 16px;
+}
+.privacy {
+    font-size: 16px;
+    font-weight: 550;
+    color: royalblue;
+}
+.ryan {
+    margin-top: 5px;
+}
+
+
+
+.addToMarketPlaceButton{
+    background-color: black;
+    color: white;
+}
+
+.addToMarketPlaceButton:hover{
+    background-color: white;
+    color: black;
+}

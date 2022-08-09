@@ -1,0 +1,96 @@
+.forum-search-layout{
+    border-radius: 5px;
+    background-color: rgb(144, 119, 119);
+    opacity: 90%;
+    border-style: solid;
+    border-color: black;
+}
+
+.forum-search-bar{
+    border-radius: 5px;
+    background-position: left top;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 25px;
+    margin-top: 2px;
+    margin-right: 2px;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+}
+
+.forum-dropdown-bar{
+    border-radius: 5px;
+    background-position: left top;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 25px;
+    margin-top: 2px;
+    margin-right: 2px;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+}
+
+.forum-search-button{
+    border-radius: 5px;
+    background-position: left top;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 45px;
+    margin-top: 2px;
+    margin-right: 2px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+
+.forum-search-button:hover{
+    background-color: #a0a0a0;
+}
+
+.forum-post{
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: black;
+    margin: 0px;
+}
+
+.forum-post-title{
+    color: black;
+}
+
+.forum-post-title-hov:hover{
+    color: blue;
+}
+
+.forum-post-user{
+    color: black;
+}
+
+.forum-post-user-hov:hover{
+    color: blue;
+}
+
+.forum-post-description{
+    color: black;
+}
+
+.forum-post-description-hov:hover{
+    color: blue;
+}
+
+.forum-background {
+    min-height: 100%;
+    background-image: url("https://i.redd.it/n0z080h4mpf01.png");
+    background-size: cover;
+    letter-spacing: normal;
+    margin: 0;
+    font-family: "Anton", sans-serif;
+    overflow: hidden;
+  }
+  
+  

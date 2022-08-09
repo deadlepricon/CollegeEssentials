@@ -1,0 +1,18 @@
+{
+  "productionMode": false,
+  "useDeprecatedV14Bootstrapping": false,
+  "eagerServerLoad": false,
+  "npmFolder": "C:\\Users\\ryant\\OneDrive\\Documents\\CollegeE\\CollegeEssentials\\csc648-848-01-sw-engineering-summer-22-team04-master\\application\\my-app\\my-app",
+  "node.version": "v16.15.0",
+  "node.download.root": "https://nodejs.org/dist/",
+  "generatedFolder": "C:\\Users\\ryant\\OneDrive\\Documents\\CollegeE\\CollegeEssentials\\csc648-848-01-sw-engineering-summer-22-team04-master\\application\\my-app\\my-app\\target\\frontend",
+  "frontendFolder": "C:\\Users\\ryant\\OneDrive\\Documents\\CollegeE\\CollegeEssentials\\csc648-848-01-sw-engineering-summer-22-team04-master\\application\\my-app\\my-app\\frontend",
+  "connect.javaSourceFolder": "C:\\Users\\ryant\\OneDrive\\Documents\\CollegeE\\CollegeEssentials\\csc648-848-01-sw-engineering-summer-22-team04-master\\application\\my-app\\my-app\\src\\main\\java",
+  "javaResourceFolder": "C:\\Users\\ryant\\OneDrive\\Documents\\CollegeE\\CollegeEssentials\\csc648-848-01-sw-engineering-summer-22-team04-master\\application\\my-app\\my-app\\src\\main\\resources",
+  "connect.applicationProperties": "C:\\Users\\ryant\\OneDrive\\Documents\\CollegeE\\CollegeEssentials\\csc648-848-01-sw-engineering-summer-22-team04-master\\application\\my-app\\my-app\\src\\main\\resources\\application.properties",
+  "connect.openApiFile": "C:\\Users\\ryant\\OneDrive\\Documents\\CollegeE\\CollegeEssentials\\csc648-848-01-sw-engineering-summer-22-team04-master\\application\\my-app\\my-app\\target\\generated-resources\\openapi.json",
+  "project.frontend.generated": "C:\\Users\\ryant\\OneDrive\\Documents\\CollegeE\\CollegeEssentials\\csc648-848-01-sw-engineering-summer-22-team04-master\\application\\my-app\\my-app\\frontend\\generated",
+  "pnpm.enable": false,
+  "require.home.node": false,
+  "build.folder": "target"
+}

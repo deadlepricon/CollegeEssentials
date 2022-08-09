@@ -1,0 +1,226 @@
+/* .title{
+    border-radius: 5px;
+    padding-bottom: 10px;
+    width: 800px;
+    height: 25px;
+    text-align: center;
+    background-color: rgb(144, 119, 119);
+    border-style: solid;
+    border-color: black;
+    opacity: 90%;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user{
+    border-radius: 5px;
+    background-position: left top;
+    padding-bottom: 10px;
+    width: 800px;
+    height: 25px;
+    text-align: center;
+    background-color: rgb(144, 119, 119);
+    border-style: solid;
+    border-color: black;
+    opacity: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description{
+    border-radius: 5px;
+    background-position: left top;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    background-color: rgb(144, 119, 119);
+    border-style: solid;
+    border-color: black;
+    opacity: 90%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* Credit to Darren for figuring out grid*/
+/* Individual Forum Post CSS*/
+.forum-grid {
+    display: grid !important;
+    background-color: white;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "Image Title Title Title Title Title Title Title"
+    "Image Post Post Post Post Post Post Post"
+    "Name Post Post Post Post Post Post Post"
+    "Contact Comments Comments Comments Comments Comments Comments Comments"
+    "Contact Comments Comments Comments Comments Comments Comments Comments";
+    justify-self: stretch;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.fp-image {
+    grid-area: Image;
+    background-color: white;
+    width: 240px;
+    margin-top:auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+    justify-self: stretch;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.fp-title {
+    grid-area: Title;
+    padding-left: 45%;
+    background-color: white;
+    border-radius: 10px;
+    justify-self: stretch;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.fp-user {
+    grid-area: Name;
+    max-width: 240px;
+    background-color: white;
+    border-radius: 10px;
+    justify-self: stretch;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.fp-description{
+    grid-area: Post;
+    background-color: white;
+    display: flex;
+    min-width: 99%;
+    border-radius: 10px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px;
+    flex-direction: row;
+    border-style: solid;
+    border-color: black;
+}
+
+.fp-contact{
+    border-radius: 10px;
+    grid-area: Contact;
+    background-color: white;
+    display: grid;
+    height: 100%;
+    max-height:100%;
+    max-width: 250px;
+    margin-bottom: auto;
+    overflow: scroll;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    grid-template-areas:
+    "fp-about-title"
+    "fp-about-me"
+    "fp-contact-title"
+    "fp-contact-me";
+}
+
+.fp-about-me {
+    margin: 5px;
+    height: auto;
+    grid-area: fp-about-title;
+}
+
+.fp-aboutText {
+    grid-area: fp-about-me;
+}
+.fp-contact-me {
+    grid-area: fp-contact-title;
+}
+
+.fp-contact-text {
+    grid-area: fp-contact-me;
+}
+
+.fp-comments{
+    background-color: white;
+    border-radius: 10px;
+    grid-area: Comments;
+
+    display: grid;
+    height: 100%;
+    max-height:100%;
+    justify-self: stretch;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    overflow: scroll;
+    grid-template-areas:
+    "fp-comment-title"
+    "fp-messages"
+    "fp-commentbox"
+    "fp-submit";
+}
+
+.fp-comment-title {
+    margin: 5px;
+    grid-area: fp-comment-title;
+}
+
+.fp-single-comment {
+    background-color: white;
+    border-radius: 10px;
+
+    display: grid;
+
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    grid-template-areas: 
+    "fp-author fp-created"
+    "fp-comment-text fp-comment-text";
+    
+}
+
+.fp-all-comments {
+    grid-area: fp-messages;
+}
+
+.fp-comment-author {
+    color: #2196F3;
+    grid: fp-author;
+}
+
+.fp-date-posted {
+    grid: fp-created;
+    justify-self: end;
+    margin-top: 10px;
+}
+
+.fp-comment-text {
+    grid-area: fp-comment-text;
+    overflow: hidden;
+}
+.new-comment-text {
+    width: 90%;
+    margin-left: 5px;
+}
+
+.fp-new-rating-field {
+    grid-area: fp-commentbox;
+}
+
+.fp-submit-button {
+    background-color: black;
+    color: white;
+}
+.comment-submission {
+    grid-area: fp-submit;
+}

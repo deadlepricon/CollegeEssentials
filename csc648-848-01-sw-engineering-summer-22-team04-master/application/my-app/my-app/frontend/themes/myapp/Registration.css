@@ -1,0 +1,22 @@
+.title-header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    min-width: 500px;
+    
+  
+}
+.submit-reg {
+    color: white;
+    background-color: black;
+    
+}
+.terms {
+
+}
+.first-name {
+    margin-right: 10px;
+}

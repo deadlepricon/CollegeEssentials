@@ -1,0 +1,48 @@
+.service-post{
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: black;
+    margin: 0px;
+}
+
+.service-post-title{
+    color: black;
+}
+
+.service-post-title-hov:hover{
+    color: blue;
+}
+
+.service-post-user{
+    color: black;
+}
+
+.service-post-user-hov:hover{
+    color: blue;
+}
+
+.service-post-school{
+    color: black;
+}
+
+.service-post-school-hov:hover{
+    color: blue;
+}
+
+.service-post-description{
+    color: black;
+}
+
+.service-post-description-hov:hover{
+    color: blue;
+}
+
+.service-background {
+    min-height: 100%;
+    background-image: url("https://i.redd.it/n0z080h4mpf01.png");
+    background-size: cover;
+    letter-spacing: normal;
+    margin: 0;
+    font-family: "Anton", sans-serif;
+    overflow: hidden;
+  }
